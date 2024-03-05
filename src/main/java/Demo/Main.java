@@ -8,6 +8,6 @@ public class Main {
         ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
 
         ShoppingCart s1 = context.getBean(ShoppingCart.class);
-        s1.checkOut();
+        s1.checkOut("Cancelled!");
     }
 }
