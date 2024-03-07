@@ -12,5 +12,9 @@ public class ShoppingCart {
         //The above all are cross-cutting aspects we need to separate out the logic of aspects
         System.out.println("Checkout Method for Shopping Cart Running");
     }
+    public int quality(){
+        return 2;
+    }
+
 
 }
